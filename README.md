@@ -36,7 +36,16 @@ Make sure you have Python 3.9+ installed. Then run:
 pip install -r requirements.txt
 ```
 
-### 4. Start the app
+### 4. Download the model file manually
+
+The model file `best_finetuned_InceptionV3.h5` is too large for GitHub. Please download it manually from this link:
+
+[Click here to download model weights](https://drive.google.com/uc?export=download&id=1EYELuaaG0pfV_Xs4p-fH7PY-165zCAaS)
+
+Place the downloaded `.h5` file in the root of your project folder.
+
+
+### 5. Start the app
 
 ```bash
 python app.py
